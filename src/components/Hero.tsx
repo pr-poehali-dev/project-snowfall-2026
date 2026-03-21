@@ -26,7 +26,7 @@ export default function Hero() {
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight">
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mx-0 py-0.5">
           ТИМУР
         </h1>
       </div>
