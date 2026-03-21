@@ -29,7 +29,7 @@ export default function Hero() {
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight px-6 py-2" style={{ textShadow: "0 0 15px rgba(0,0,0,0.3)", backdropFilter: "blur(2px)", background: "rgba(0,0,0,0.08)", borderRadius: "32px" }}>
           ТИМУР
         </h1>
-        <p className="text-base md:text-lg leading-relaxed px-5 py-4" style={{ textShadow: "0 1px 8px rgba(0,0,0,0.8)", backdropFilter: "blur(6px)", background: "rgba(0,0,0,0.18)", borderRadius: "16px" }}>
+        <p className="md:text-lg leading-relaxed px-5 py-4 text-xs" style={{ textShadow: "0 1px 8px rgba(0,0,0,0.8)", backdropFilter: "blur(6px)", background: "rgba(0,0,0,0.18)", borderRadius: "16px" }}>
           Сегодня нам исполняется пол года, и все это время — я провел, будучи искренне счастливым, благодаря тебе.
           <br /><br />
           Возможно, такие даты для тебя мало значат, но даже так, я бы хотел сделать тебе небольшой подарок в честь этого дня, который ты сможешь открыть в любое удобное тебе время.
