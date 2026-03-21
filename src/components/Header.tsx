@@ -8,12 +8,7 @@ export default function Header({ className }: HeaderProps) {
       <div className="flex justify-between items-center">
         <div className="text-white text-sm uppercase tracking-wide">Галерея</div>
         <nav className="flex gap-8">
-          <a
-            href="#collection"
-            className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
-          >
-            Коллекция
-          </a>
+
 
         </nav>
       </div>
