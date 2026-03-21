@@ -1,5 +1,3 @@
-import Stamp from "@/components/Stamp";
-
 export default function Featured() {
   return (
     <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center min-h-screen px-6 py-12 lg:py-0 bg-white relative">
@@ -10,15 +8,15 @@ export default function Featured() {
           className="w-full h-full object-cover"
         />
       </div>
-      <div className="absolute bottom-6 right-6 flex gap-3 z-10">
-        <Stamp
-          src="https://cdn.poehali.dev/projects/2263574c-92f1-40e2-9a2f-c3b4cc031d93/bucket/a370af8d-2d8f-4b00-9d69-14743e13253d.jpg"
-          label="POSTES"
-          year="2025"
-          size="md"
-          rotate={6}
-        />
-      </div>
+
+      {/* Стрелка в левом нижнем углу */}
+      <img
+        src="https://cdn.poehali.dev/projects/2263574c-92f1-40e2-9a2f-c3b4cc031d93/bucket/43400cb8-9338-445f-b915-6765d8a2f7bb.jpg"
+        alt=""
+        className="absolute bottom-6 left-6 w-16 h-16 object-contain opacity-70 z-10"
+        style={{ transform: "scaleX(-1) rotate(-30deg)" }}
+      />
+
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
         <p className="text-gray-800 text-base md:text-lg leading-relaxed">
           Уже пол года прошло с того сообщения, а я понял, что если и дальше мы будем вместе — нас ждёт только хорошее.
