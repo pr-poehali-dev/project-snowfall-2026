@@ -36,13 +36,7 @@ export default function Hero() {
         </p>
       </div>
 
-      {/* Стрелка вниз в правом нижнем углу */}
-      <img
-        src="https://cdn.poehali.dev/projects/2263574c-92f1-40e2-9a2f-c3b4cc031d93/bucket/43400cb8-9338-445f-b915-6765d8a2f7bb.jpg"
-        alt=""
-        className="absolute bottom-6 right-6 w-16 h-16 object-contain opacity-80 z-20"
-        style={{ transform: "rotate(20deg)" }}
-      />
+
     </div>
   );
 }

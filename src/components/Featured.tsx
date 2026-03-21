@@ -9,13 +9,6 @@ export default function Featured() {
         />
       </div>
 
-      {/* Стрелка в левом нижнем углу */}
-      <img
-        src="https://cdn.poehali.dev/projects/2263574c-92f1-40e2-9a2f-c3b4cc031d93/bucket/43400cb8-9338-445f-b915-6765d8a2f7bb.jpg"
-        alt=""
-        className="absolute bottom-6 left-6 w-16 h-16 object-contain opacity-70 z-10"
-        style={{ transform: "scaleX(-1) rotate(-30deg)" }}
-      />
 
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
         <p className="text-gray-800 text-base md:text-lg leading-relaxed">
