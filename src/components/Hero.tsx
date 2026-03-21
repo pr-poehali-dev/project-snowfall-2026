@@ -25,8 +25,8 @@ export default function Hero() {
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mx-0 py-0.5">
+      <div className="absolute z-10 text-center text-white top-16">
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight px-6 py-2" style={{ textShadow: "0 0 30px rgba(0,0,0,0.6)", backdropFilter: "blur(6px)", background: "rgba(0,0,0,0.15)", borderRadius: "12px" }}>
           ТИМУР
         </h1>
       </div>
