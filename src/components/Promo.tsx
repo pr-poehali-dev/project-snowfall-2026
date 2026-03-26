@@ -1,6 +1,5 @@
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useRef } from "react";
-import Stamp from "@/components/Stamp";
 
 export default function Promo() {
   const container = useRef<HTMLDivElement>(null);
@@ -26,23 +25,7 @@ export default function Promo() {
         </motion.div>
       </div>
 
-      {/* Марки поверх котиков */}
-      <div className="absolute top-6 right-6 z-20 flex gap-3">
-        <Stamp
-          src="https://cdn.poehali.dev/projects/2263574c-92f1-40e2-9a2f-c3b4cc031d93/bucket/a370af8d-2d8f-4b00-9d69-14743e13253d.jpg"
-          label="LOVE"
-          year="2025"
-          size="sm"
-          rotate={-6}
-        />
-        <Stamp
-          src="https://cdn.poehali.dev/projects/2263574c-92f1-40e2-9a2f-c3b4cc031d93/bucket/a370af8d-2d8f-4b00-9d69-14743e13253d.jpg"
-          label="POSTES"
-          year="2025"
-          size="md"
-          rotate={4}
-        />
-      </div>
+
     </div>
   );
 }
