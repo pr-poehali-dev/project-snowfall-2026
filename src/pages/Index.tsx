@@ -20,10 +20,10 @@ const Index = () => {
 Не вини себя, просто прими этот подарок со всем теплом, которое я вложил в него. Я люблю тебя, Тимур`}</p>
       </section>
 
-      <section className="flex justify-center py-8 px-6">
+      <section className="flex justify-center pt-2 pb-8 px-6">
         <img
-          src="https://cdn.poehali.dev/projects/2263574c-92f1-40e2-9a2f-c3b4cc031d93/files/a19c1314-03bd-4af6-bf87-ec598e32598b.jpg"
-          alt="Поцелуй"
+          src="https://cdn.poehali.dev/projects/2263574c-92f1-40e2-9a2f-c3b4cc031d93/bucket/af18341a-e889-4d36-a5ff-980130c1776a.jpg"
+          alt="Лисы"
           className="max-w-md w-full rounded-2xl shadow-lg"
         />
       </section>
