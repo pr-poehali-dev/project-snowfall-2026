@@ -25,11 +25,11 @@ export default function Promo() {
         </motion.div>
       </div>
 
-      <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 w-[min(85vw,420px)] pointer-events-none">
+      <div className="absolute inset-0 z-10 flex items-center justify-center pointer-events-none">
         <img
           src="https://cdn.poehali.dev/projects/2263574c-92f1-40e2-9a2f-c3b4cc031d93/bucket/bf2bc29d-59fb-45be-9e7b-fe2e18cd1c50.png"
           alt="Коллаж"
-          className="w-full h-auto drop-shadow-2xl"
+          className="w-[min(85vw,420px)] h-auto drop-shadow-2xl"
         />
       </div>
 
