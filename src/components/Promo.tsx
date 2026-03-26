@@ -29,7 +29,7 @@ export default function Promo() {
         <img
           src="https://cdn.poehali.dev/projects/2263574c-92f1-40e2-9a2f-c3b4cc031d93/bucket/bf2bc29d-59fb-45be-9e7b-fe2e18cd1c50.png"
           alt="Коллаж"
-          className="w-[min(85vw,420px)] h-auto drop-shadow-2xl"
+          className="w-full h-full object-cover"
         />
       </div>
 
